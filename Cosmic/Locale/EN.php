@@ -5,57 +5,57 @@ $GLOBALS['language'] = array (
     'website' => array (
         /*     App/View/base.html     */
         'base' => array(
-            'nav_home'              => 'Home',
+            'nav_home'              => 'Início',
 
-            'nav_community'         => 'Community',
-            'nav_news'              => 'News',
+            'nav_community'         => 'Comunidade',
+            'nav_news'              => 'Notícias',
             'nav_jobs'              => 'Jobs',
-            'nav_photos'            => 'Photos',
-            'nav_staff'             => 'Staff',
+            'nav_photos'            => 'Fotos',
+            'nav_staff'             => 'Equipe Unix',
             'nav_exchange'          => 'Marketplace',
 
-            'nav_shop'              => 'shop',
-            'nav_buy_points'        => Config::site['shortname'] . ' Shop',
-            'nav_buy_club'          => 'Purchase ' . Config::site['shortname'] . ' Club',
-            'nav_purchasehistory'   => 'Purchase history',
-            'nav_changename'        => 'Change ' . Config::site['shortname'] . 'name',
+            'nav_shop'              => 'Loja',
+            'nav_buy_points'        => 'Loja ' .  Config::site['shortname'] , 
+            'nav_buy_club'          => 'Comprar ' . Config::site['shortname'] . ' VIP',
+            'nav_purchasehistory'   => 'Histórico de compras ',
+            'nav_changename'        => 'Mude seu nome ' ,
 
-            'nav_highscores'        => 'Highscores',
+            'nav_highscores'        => 'Hall da Fama',
 
             'nav_forum'             => 'My Groups',
 
-            'nav_helptool'          => 'Help Tool',
-            'nav_helptickets'       => 'Help Tickets',
+            'nav_helptool'          => 'Ajuda',
+            'nav_helptickets'       => 'Meus Tickets',
 
             'nav_housekeeping'      => 'Housekeeping',
 
-            'close'                 => 'Close',
-            'cookies'               => 'uses its own and third-party cookies to provide a better service and also ensures that the advertisements better match your preferences. If you use our website you agree with our cookie policy.',
-            'read_more'             => 'Read more',
-            'thanks_for_playing'    => 'Thank you for playing',
-            'made_with_love'        => 'was made with a lot of love',
-            'credits'               => 'Thanks to Raizer and Metus',
-            'and_all'               => 'And all',
+            'close'                 => 'Fechar',
+            'cookies'               => 'usa cookies próprios e de terceiros para fornecer um serviço melhor e também garante que os anúncios correspondam melhor às suas preferências. Se você usa nosso site, concorda com nossa política de cookies.',
+            'read_more'             => 'Saber mais',
+            'thanks_for_playing'    => 'Obrigado por jogar',
+            'made_with_love'        => 'foi feito com muito amor e carinho',
+            'credits'               => 'Agradecimentos aos criadores da Cosmic, ao Cachaza e Wu4ll',
+            'and_all'               => 'e a todos os',
 
-            'login_name'            => 'name',
-            'login_password'        => 'Password',
-            'login_save_data'       => 'Remember me',
-            'login_lost_password'   => 'Lost your password?',
+            'login_name'            => 'Nome',
+            'login_password'        => 'Senha',
+            'login_save_data'       => 'Lembrar minha senha',
+            'login_lost_password'   => 'Esqueceu sua senha?',
 
             'report_message'        => 'Report this message',
-            'report_certainty'      => 'You are about to report this message. Are you sure you want to report this message?',
-            'report_inappropriate'  => 'Yes, this is inappropriate!',
+            'report_certainty'      => 'Você está prestes a denunciar esta mensagem. Você tem certeza que quer denunciar esta mensagem?',
+            'report_inappropriate'  => 'Sim, isso é inapropriado!',
 
-            'user_to'               => 'To',
-            'user_profile'          => 'My profile',
-            'user_settings'         => 'settings',
-            'user_logout'           => 'Log out',
+            'user_to'               => 'Entrar no',
+            'user_profile'          => 'Meu perfil',
+            'user_settings'         => 'Configurações',
+            'user_logout'           => 'Sair do ' . Config::site['shortname'] . ' Hotel',
 
             'header_slogan'         => 'Virtual world for young people!',
             'header_slogan2'        => 'Join our community and make new friends',
             'header_login'          => 'Login',
             'header_register'       => 'Register for free!',
-            'header_to'             => 'To',
+            'header_to'             => 'Entrar no',
 
             'footer_helptool'       => 'Help Tool',
             'footer_rules'          => 'The ' . Config::site['shortname'] . ' Rules',
@@ -68,7 +68,7 @@ $GLOBALS['language'] = array (
         /*     public/assets/js/web     */
         'javascript' => array(
             'web_customforms_markedfields'                  => 'All fields marked with an * are mandatory.',
-            'web_customforms_loadingform'                   => 'Loading form...',
+            'web_customforms_loadingform'                   => 'Carregando formulário ...',
             'web_customforms_next'                          => 'Next',
             'web_customforms_close'                         => 'Close',
             'web_customforms_participation'                 => 'Thanks for your participation!',
@@ -150,7 +150,7 @@ $GLOBALS['language'] = array (
             'web_page_shop_offers_no_card2'                 => 'points of sale',
             'web_page_shop_offers_to'                       => 'to',
             'web_page_shop_offers_buy_code'                 => 'Purchase access code',
-            'web_page_hotel_loading'                        => 'is now loading...',
+            'web_page_hotel_loading'                        => 'está carregando agora ...',
             'web_page_hotel_sometinhg_wrong_1'              => 'Oops, there is something wrong!.',
             'web_page_hotel_sometinhg_wrong_2'              => 'Reload the page',
             'web_page_hotel_sometinhg_wrong_3'              => 'Or create a ticket in the helptool',
@@ -163,14 +163,14 @@ $GLOBALS['language'] = array (
 
         /*     App/View/Community     */
         'article' => array (
-            'reactions'                 => 'Comments',
-            'reactions_empty'           => 'There are no Comments yet.',
-            'reactions_fill'            => 'Type your message here...',
-            'reactions_post'            => 'Post',
-            'latest_news'               => 'Latest news',
-            'reaction_hidden_yes'       => 'Newscomments made invisible!',
-            'reaction_hidden_no'        => 'Newscomments made visible!',
-            'forbidden_words'           => 'Your message contains forbidden words!',
+            'reactions'                 => 'Comentários',
+            'reactions_empty'           => 'Ainda não há comentários nesta notícia.',
+            'reactions_fill'            => 'Digite aqui seu comentário...',
+            'reactions_post'            => 'Pronto',
+            'latest_news'               => 'Ultimas notícias',
+            'reaction_hidden_yes'       => 'Comentários invisíveis!',
+            'reaction_hidden_no'        => 'Todos os comentários!',
+            'forbidden_words'           => 'Sua mensagem contém palavras proibidas!',
         ),
         'forum' => array (
           /*  Forum/index.html  */
@@ -216,15 +216,15 @@ $GLOBALS['language'] = array (
         /*     App/View/Community     */
         'community_photos' => array (
             'by'          => 'by',
-            'photos_by'   => 'Photos\'s by',
-            'photos_desc' => 'See all the latest pictures taken by',
-            'load_more'   => 'View more photos'
+            'photos_by'   => 'Fotos dos nossos queridos',
+            'photos_desc' => 'Veja todas as fotos recentes tiradas por nossos',
+            'load_more'   => 'Carregar mais fotos'
         ),
         'community_staff' => array (
-            'title'       => 'How do I become staff at ' . Config::site['shortname'] . ' ?',
-            'desc'        => 'Our staff is here to help and guide you within this hotel!',
-            'content_1'   => 'Of course everyone dreams of being staff at ' . Config::site['shortname'] . ' , but unfortunately this is not for everyone. To become staff at ' . Config::site['shortname'] . '  you must apply.',
-            'content_2'   => 'This is only possible at times when we have vacancies, when we have this, this is mentioned in the news.'
+            'title'       => 'O que é ' . Config::site['shortname'] . ' Staff?',
+            'desc'        => 'Nossa equipe está aqui para ajudá-lo e guiá-lo dentro deste hotel!',
+            'content_1'   => 'A equipe do ' . Config::site['shortname'] . ' é responsável pelo andamento do hotel com diversos eventos e promoções.',
+            'content_2'   => 'Fundadores e CEOs são responsáveis pela administração geral do hotel. Já os demais, é responsáveis pela diversão geral do hotel.'
         ),
         'community_value' => array (
             'title_header'      => 'Catalogue marketplace',
@@ -256,8 +256,8 @@ $GLOBALS['language'] = array (
             'help_other_questions'      => 'Other questions',
             'help_content_1'            => 'Didn\'t find the answer to your question? Do not hesitate to contact our customer service so that we can provide more information.',
             'help_contact'              => 'Contact',
-            'title'                     => 'Help Tool',
-            'desc'                      => 'You can search here for answers to your questions. If you cannot find the answer to your question, submit a request.',
+            'title'                     => ' - Ferramenta de ajuda',
+            'desc'                      => 'Aqui você pode encontrar resposta para as dúvidas mais comuns dos usuários. Se você não encontrar a resposta, você pode abrir um ticket de ajuda..',
 
           /*  Help/request.html  */
             'request_closed'            => 'CLOSED',
@@ -267,21 +267,23 @@ $GLOBALS['language'] = array (
             'request_react'             => 'React',
             'request_description'       => 'Description',
             'request_react_on_ticket'   => 'React on ticket',
-            'request_contact'           => 'Contact ' . Config::site['shortname'],
-            'request_contact_help'      => 'You can contact us by opening a new ticket.',
-            'request_new_ticket'        => 'New ticket',
-            'request_subject'           => 'Subject',
-            'request_type'              => 'Type',
-            'request_status'            => 'Ticket opened',
-            'request_in_treatment'      => 'In treatment',
-            'request_open'              => 'Open',
-            'request_closed'            => 'Closed'
+            'request_contact'           => 'NOVA SOLICITAÇÃO ' ,
+            'request_contact_help'      => 'Você pode entrar em contato conosco abrindo uma nova solicitação.',
+            'request_new_ticket'        => 'Enviar solicitação',
+            'request_subject'           => 'Assunto',
+            'request_type'              => 'Estado',
+            'request_status'            => 'Ticket aberto em',
+            'request_in_treatment'      => 'Em tratamento',
+            'request_open'              => 'aberto',
+            'request_closed'            => 'fechado'
         ),
         'help_new' => array (
-            'title'         => 'My ticket',
-            'subject'       => 'Subject',
-            'description'   => 'Description',
-            'open_ticket'   => 'Open a ticket'
+            'title'         => 'NOVO TICKET',
+            'subject'       => 'Assunto',
+            'description'   => 'Descrição',
+            'open_ticket'   => 'Enviar uma solicitação',
+			'option'        => 'Quero falar sobre',
+			'desc2'         => 'Você pode enviar uma solicitação aqui. Preste bastante atenção em cada etapa, pois isso influenciará muito na resposta.'
         ),
 
         /*     App/View/Home     */
